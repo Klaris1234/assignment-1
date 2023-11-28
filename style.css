@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: grey;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color when hovering */
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+
+
+
+  
+.main {   
+  flex: 70%;
+
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+
+}
+
+
+
+  
