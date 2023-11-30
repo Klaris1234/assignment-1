@@ -15,9 +15,6 @@ My target audience are fruit enthusiasts and busy adults in general seeking a co
 User Goals:
 As a user, I want to easily navigate through the website to find a diverse selection of  fruits.
 As a user, I want a visually appealing and user-friendly interface for a seamless shopping experience.
-<<<<<<< HEAD
-As a budget-conscious consumer, I want to be aware of promotions, discounts, and any free delivery options available.
-=======
 As a budget-conscious consumer, I want to be aware of promotions, discounts, and any free delivery options available.
 
 
@@ -28,4 +25,6 @@ As a budget-conscious consumer, I want to be aware of promotions, discounts, and
 
 
 
->>>>>>> b9c94751dd76a79aa6df607566ada7075d5e7ab7
+
+
+
