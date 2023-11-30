@@ -1,17 +1,22 @@
+
 body {
   margin: 0;
 }
 
 .navbar {
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
 }
 
 .navbar a {
-  display: flex;
-  justify-content: space-between;
   text-align: center;
-  padding: 14px 20px;
+  padding: 15px 35px;
+  color: white;
   text-decoration: none;
+  
 }
 
 /* Change color when hovering */
@@ -20,10 +25,14 @@ background-color: #ddd;
 color: black;
 }
 
+.navbar a.active {
+  background-color: #ddd; /* Set the background color for the active link */
+  color: black
+}
 
 
 
-  
+
 .main {   
   flex: 70%;
 
