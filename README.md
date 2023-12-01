@@ -6,7 +6,7 @@ At BigFruits, we understand the importance of incorporating wholesome and nutrit
 
 P.S. Take advantage of our offer for free island-wide delivery on orders over $50. Don't miss out—indulge in the goodness of our fruits by making your online purchase today!
 
-# Design process
+## Design process
 
 Target Audience:
 My target audience are fruit enthusiasts and busy adults in general seeking a convenient without compromsing on quality. They might be busy with work while still wanting fresh fruits for themselves, family or friends. There is no more need to go all the way to the supermarket just to find the fruits they want is not available or fresh. The website aims to cater to individuals who value quality, sustainability, and a hassle-free shopping experience.
@@ -17,7 +17,35 @@ As a user, I want to easily navigate through the website to find a diverse selec
 As a user, I want a visually appealing and user-friendly interface for a seamless shopping experience.
 As a budget-conscious consumer, I want to be aware of promotions, discounts, and any free delivery options available.
 
+https://xd.adobe.com/view/753ee2ae-b2a6-4d22-9150-bd826427791c-206d/ (XD URL)
 
+## Features
+
+-
+
+### Existing Features
+
+-
+
+### Features Left to Implement
+
+- 
+
+## Technologies Used
+-
+
+## Testing
+-
+
+## Credits
+-
+
+### Content
+-
+### Media
+-
+### Acknowledgements
+I received inspirations for this project from https://mangabuddy.com/official, https://yayapapaya.com.sg/, and 
 
 
 
