@@ -20,7 +20,7 @@
   <a href="index.html">HOME</a>
   <a href="aboutus.html">ABOUT US</a>
   <a href="shop.html">SHOP</a>
-  <a href="FAQ.html">FAQ</a>
+  <a href="FAQ.html" class="active">FAQ</a>
   <a href="contactUs.html">CONTACT US</a>
 </div>
 <div class="main-container">
@@ -31,39 +31,79 @@
         <span class="separator">></span>
       </div>
       <div class="breadcrumb-item">
-        <a title="FAQ" href="faq">FAQ</a>
+        <a title="FAQ" href="FAQ.html">FAQ</a>
       </div>
       
     </div>
     <div class="content-box">
       <h1>Frequently Asked Questions</h1>
- 
-      <div class="faqContent">
+      <div class="faqcontent">
         <div class="faq-box">
           <div class="question">
-            ::before
             <h3>What is the minimum order for delivery?</h3>
           </div>
-          <div class="answer">
+          <div class="answer" id="answer1">
             <p>Minimum Order for Checkout is $30, with a delivery fee of $10. For Free Delivery, the order must be at least $60.</p>
           </div>
+          <button class="toggle-button" id="toggleButton1" onclick="toggleAnswer('answer1', 'toggleButton1')">+</button>
         </div>
         
         <div class="faq-box">
           <div class="question">
             <h3>What are your delivery days?</h3>
           </div>
-          <div class="answer">
+          <div class="answer" id="answer2">
             <p>We deliver from Monday to Saturday. We do not deliver on Sundays or Public Holidays.</p>
           </div>
+          <button class="toggle-button" id="toggleButton2" onclick="toggleAnswer('answer2', 'toggleButton2')">+</button>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <h3>What are your payment modes?</h3>
+          </div>
+          <div class="answer" id="answer3">
+            <p>All purchases are made online via Credit or Debit Card through PayPal. Visa, MasterCard etc are all accepted.</p>
+          </div>
+          <button class="toggle-button" id="toggleButton3" onclick="toggleAnswer('answer3', 'toggleButton3')">+</button>
         </div>
         
-        <!-- Repeat the structure for other questions and answers -->
+        <div class="faq-box">
+          <div class="question">
+            <h3>What is the earliest day I can select for my delivery?</h3>
+          </div>
+          <div class="answer" id="answer4">
+            <p>We will need at least 24 to 36 hours to prepare your order, earliest delivery date will be 2 days after an order is placed. Dates available for delivery will be automatically shown at Checkout.</p>
+            <p>IMPORTANT NOTE: Due to the Covid crisis, we are experiencing a surge in orders, as such earliest delivery slots may be longer than 2 days. We are currently working to increase our delivery/packing capacity to cater to the increased demand. We apologise for the inconvenience.</p>
+          </div>
+          <button class="toggle-button" id="toggleButton4" onclick="toggleAnswer('answer4', 'toggleButton4')">+</button>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <h3>What if your fruits arrive damaged/bruised/not fresh??</h3>
+          </div>
+          <div class="answer" id="answer5">
+            <p>Just let us know within 24 hours and we will provide refunds or vouchers accordingly.</p>
+          </div>
+          <button class="toggle-button" id="toggleButton5" onclick="toggleAnswer('answer5', 'toggleButton5')">+</button>
+        </div>
         
+        <div class="faq-box">
+          <div class="question">
+            <h3>How many days in advance can I place my order?</h3>
+          </div>
+          <div class="answer" id="answer6">
+            <p>Our delivery window is 2 weeks from date of order. An order placed today can be delivered up to 14 days later.</p>
+          </div>
+          <button class="toggle-button" id="toggleButton6" onclick="toggleAnswer('answer6', 'toggleButton6')">+</button>
+        </div>
         
       </div>
-
-    </div>
+  </div>
+      
+ 
+      
   </div>
 </div>
 <div class="footer">

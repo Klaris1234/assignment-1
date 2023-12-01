@@ -1,6 +1,35 @@
+/*top section of website*/
+.logoandicons{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.buttons-container {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-right:0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.signin-button, .cart-button {
+  padding: 10px 15px;
+  width:50px;
+  background-color: #4f6d9c;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.signin-button:hover, .cart-button:hover {
+  background-color: #8094b3;
+}
+
 /*nav bar of website*/
 .navbar {
-  background-color: #7de3d0;
+  background-color: #a81d2e;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -14,25 +43,23 @@
   text-decoration: none;
 }
 
-/* Change nav element color when hovering */
+/* Changes nav element color when hovering */
 .navbar a:hover {
-background-color: #aae3d8;
+background-color: #be0002;
 
 color: white;
 }
 
 .navbar a.active {
-  background-color: #aae3d8; /* change nav element color for active link */
- 
+  background-color: #b2203f; /* change nav element color for active link */
+  box-shadow: -5px -5px 10px #6a0002;
+
   color: white;
 }
 
-
 body {
   width:100%;
-
 }
-
 
 /*container for main part of the website*/
 .main-container {
@@ -52,12 +79,13 @@ body {
   width:96%;
 }
 
+/*breadcrumbs to show current directory of user*/
 .breadcrumb-container {
-  background-color:#c2e9ed;
+  box-shadow: -5px 5px 5px #81848b;
+  background-color: #8094b3;
   color:white;
   display: flex;
   align-items: center;
-  width:100%;
   font-family: 'Hedvig Letters Sans', sans-serif;
   padding-left: 1rem;
   padding-top: 0.5rem;
@@ -71,20 +99,22 @@ body {
 
 .separator {
   margin: 0 5px;
-  color: #999;
+  color: #f4f3f3;
 }
 
 .breadcrumb-item a {
   text-decoration: none;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 .breadcrumb-item a:hover {
   text-decoration: underline;
+  color:rgb(210, 209, 209)
 }
 
 .content-box{
-  background-color: white;
+  box-shadow: -5px 5px 5px #8094b3;
+  background-color: #ced6e3;
   margin-top: 1rem;
   display: flex;
   align-items: center;
@@ -95,35 +125,35 @@ body {
 
 /*home*/
 .HomeContent{
-  margin-left:1rem;
-  margin-right: 1rem;
   background-image:url("images/fruits1.png") ;
   background-size: cover;
-  width:950px;
   padding:8rem;
-  font-family: 'Ubuntu', sans-serif;
 
 }
 
 .HomeContent h1 {
-  color: #523d05;
+  color: #3e0930;
+  font-family: 'Kalam', cursive;
 }
 
 .HomeContent p {
-  color: #5b5531;
+  color: #4f123e;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /*about us*/
 .fruits3{ /*picture for the about us page*/
+  box-shadow: 5px 5px 5px #8094b3;
   margin-top: 1rem;
-  width: 100%;
+  width: 98%;
+  height:auto;
 }
 .AboutUsContent{
   margin-top:1rem;
   display: flex;
   flex-direction: column;
   width: 500px;
-  padding-left: 6rem;
+  padding-right: 18rem;
   
 }
 /*shop*/
@@ -227,20 +257,69 @@ button:hover {
 }
 
 /*FAQ*/
-.faq-box {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 15px;
+.faqcontent{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
 }
+
+.faq-box {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  position: relative; /* Added to make the button position relative to this container */
+  width: 500px;
+  background-color: white;
+}
+
+
 
 .question h3 {
   color: #333;
 }
 
+.answer {
+  display: none;
+}
+
 .answer p {
   color: #666;
 }
+
+.toggle-button {
+  position: absolute;
+  border-radius: 5px;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+
+/*Contact Us*/
+.contactusContent{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:1rem;
+  width: 100%;
+}
+.contactusContent h1{
+  width:100%;
+  margin-left: 4rem;
+
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 300px;
+  flex:1;
+  padding-left:6rem;
+  padding-right: 8rem;
+}
+.map{
+  margin-top: 3rem;
+}
+
 
 
 
