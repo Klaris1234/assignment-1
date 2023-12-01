@@ -1,48 +1,265 @@
-
-body {
-  margin: 0;
-}
-
+/*nav bar of website*/
 .navbar {
-  background-color: grey;
+  background-color: #7de3d0;
   display: flex;
   justify-content: center;
   text-decoration: none;
-
 }
 
 .navbar a {
   text-align: center;
   padding: 15px 35px;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
-  
 }
 
-/* Change color when hovering */
+/* Change nav element color when hovering */
 .navbar a:hover {
-background-color: #ddd;
-color: black;
+background-color: #aae3d8;
+
+color: white;
 }
 
 .navbar a.active {
-  background-color: #ddd; /* Set the background color for the active link */
-  color: black
+  background-color: #aae3d8; /* change nav element color for active link */
+ 
+  color: white;
+}
+
+
+body {
+  width:100%;
+
+}
+
+
+/*container for main part of the website*/
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  background-color: #F8F6F6;
+}
+
+.container{
+  display: flex;
+  margin: 1rem ;
+  flex-direction: column;
+  padding: 1rem;
+
+  width:96%;
+}
+
+.breadcrumb-container {
+  background-color:#c2e9ed;
+  color:white;
+  display: flex;
+  align-items: center;
+  width:100%;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  margin: 0 5px;
+  color: #999;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: grey;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.content-box{
+  background-color: white;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+
+
+/*home*/
+.HomeContent{
+  margin-left:1rem;
+  margin-right: 1rem;
+  background-image:url("images/fruits1.png") ;
+  background-size: cover;
+  width:950px;
+  padding:8rem;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.HomeContent h1 {
+  color: #523d05;
+}
+
+.HomeContent p {
+  color: #5b5531;
+}
+
+/*about us*/
+.fruits3{ /*picture for the about us page*/
+  margin-top: 1rem;
+  width: 100%;
+}
+.AboutUsContent{
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-left: 6rem;
+  
+}
+/*shop*/
+.shopcontent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:1rem;
+  width: 100%;
+  
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width:100%;
+  height: 80px;
+}
+.fruits-list
+{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 300px;
+  flex:1;
+  padding-left:4rem
+  
+
+}
+
+.itemdisplay {
+  flex: 1;
+  padding-top: 5rem;
+  padding-right:1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+
+}
+.item{
+  width:200px;
+  margin:0.5rem;
+  height:400px;
+  
+  
+
+}
+.productname{
+  width:180px;
+  height:50px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.productname a {
+  text-decoration: none; /* Remove underline */
+  color: black;
+}
+
+.productname a:hover {
+  text-decoration: underline; /* Add underline on hover */
+
+}
+
+.price{
+  
+  width:180px;
+  height:30px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.fruits-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fruits-list li {
+  margin-bottom: 10px;
 }
 
 
 
 
-.main {   
-  flex: 70%;
+button {
+  background-color: #0a640d;
+  color: white;
+  margin-left: 2.6rem;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
 
-  padding: 20px;
 }
+
+button:hover {
+  background-color: #45a049;
+}
+
+/*FAQ*/
+.faq-box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.question h3 {
+  color: #333;
+}
+
+.answer p {
+  color: #666;
+}
+
+
 
 /* Footer */
 .footer {
-  padding: 20px;
+  margin:0;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
 
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 
