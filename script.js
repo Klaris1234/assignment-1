@@ -1,3 +1,5 @@
+
+
 //FAQ
 function toggleAnswer(answerId, buttonId) {
   var answer = document.getElementById(answerId);
@@ -106,18 +108,4 @@ function createButton(text, onClickHandler) {
   return button;
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    const menuButton = document.getElementById('menu-button');
-    const menu = document.getElementById('slide-in-menu');
-    const closeButton = document.getElementById('close-btn');
-
-    menuButton.addEventListener('click', function () {
-      menu.style.display = 'flex';
-    });
-
-    closeButton.addEventListener('click', function () {
-      menu.style.display = 'none';
-    });
-  });
 

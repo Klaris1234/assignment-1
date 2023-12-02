@@ -1,5 +1,5 @@
 /*top section of website*/
-.signin-button,.cart-button{
+.logoandicons{
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -163,14 +163,22 @@ body {
   width: 98%;
   height:auto;
 }
+
+.fruits3 img {
+  width: 100%;
+  height: auto; 
+  display: block; 
+}
+
 .AboutUsContent{
   margin-top:1rem;
   display: flex;
   flex-direction: column;
   width: 500px;
   padding-right: 18rem;
-  
 }
+
+
 /*shop*/
 .shopcontent {
   display: flex;
@@ -272,7 +280,6 @@ button:hover {
 
 /*SHOP-product*/
 
-
 .fruitscontent {
   display: flex;
   flex-wrap: wrap;
@@ -288,7 +295,7 @@ button:hover {
 .product-details {
   flex-grow: 1;
   margin:2rem;
-  width: 300;
+  width: 300px;
   display:flex;
   flex-direction: column;
 }
@@ -304,11 +311,24 @@ button:hover {
       padding-left: 5px;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width:96%;
+}
+
+.aboutfruit{
+  margin-right:5rem ;
+  margin-bottom: 3rem;
+  width: 815px;
+}
 .quantity-input {
   width: 50px;
   margin-right: 10px;
   padding: 5px; /* Adjust padding for better styling */
-  box-sizing: border-box; /
+  box-sizing: border-box; 
 }
 
 .add-to-cart {
@@ -431,7 +451,7 @@ button:hover {
   padding-right: 8rem;
 }
 .contact-container h2{
-  color: 3e0930;
+  color: #3e0930;
 }
 .contact-container p{
   color:#4f123e
@@ -461,6 +481,3 @@ button:hover {
   text-decoration: underline;
 }
 
-
-
-  
