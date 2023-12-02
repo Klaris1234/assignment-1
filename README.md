@@ -29,8 +29,6 @@ the contact us page shows the location of where the company is located, as well 
 
 ### Content
 Most of the content, such as the shop and FAQ is from https://yayapapaya.com.sg/
-### Media
--
 ### Acknowledgements
 I received inspirations for this project from https://mangabuddy.com/official, https://yayapapaya.com.sg/, and 
 
