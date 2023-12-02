@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+    
+
+</head>
+<body>
+
+  <div class="logoandicons">
+    <img src="images/logo.png" alt="logo" width=auto height="85" >
+    <div class="buttons-container">
+      <a href="#" class="signin-button">Sign In</a>
+      <button class="cart-button" onclick="toggleCartTab()">Cart<span id="cart-quantity">0</span></button>
+      
+
+
+      
+
+
+    </div>
+  </div>
+
+<!--navigation bar -->
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="aboutus.html">ABOUT US</a>
+  <a href="shop.html" class="active">SHOP</a>
+  <a href="FAQ.html">FAQ</a>
+  <a href="contactUs.html">CONTACT US</a>
+</div>
+
+<div id="cart-tab"><!-- Cart tab content goes here -->
+    <div id="close-cart" onclick="toggleCartTab()">Close</div>
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items-list"></ul>
+</div>
+
+<div class="main-container">
+  <div class="container">
+    <div class="breadcrumb-container">
+      <div class="breadcrumb-item">
+        <a title="Home" href="index.html">HOME</a>
+        <span class="separator">></span>
+      </div>
+      <div class="breadcrumb-item">
+        <a title="shop" href="shop.html">SHOP</a>
+        <span class="separator">></span>
+      </div>
+      <div class="breadcrumb-item">
+        <a title="product" href="fruits2.html">PRODUCT</a>
+      </div>
+    </div>
+    <div class="content-box">
+        <header>
+            <h1>Shop For Fruits</h1>
+          </header>
+        <div class="fruitscontent"> <!--the first item of the shopping section-->
+            <img src="images/apple2.jpg" alt="item" class="itemA">
+            <div class="product-details" id="vitaminCProduct">
+                <div class="productName">Apple Green Granny Smith - South Africa / Turkey (Pack of 4)</div>
+                <div class="price"><p>$2.80</p></div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" class="quantity-input" value="1" min="1">
+                <button class="add-to-cart" onclick="addToCart('Apple Green Granny Smith - South Africa / Turkey (Pack of 4)', 2.80, document.getElementById('quantity').value)">Add to Cart</button>
+              </div>
+            </div>
+
+</div>
+<div class="footer">
+  <p>&copy; 2023 BigFruits. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+</div>
+
+</body>
+</html>
