@@ -20,28 +20,15 @@ As a budget-conscious consumer, I want to be aware of promotions, discounts, and
 https://xd.adobe.com/view/753ee2ae-b2a6-4d22-9150-bd826427791c-206d/ (XD URL)
 
 ## Features
-
--
-
-### Existing Features
-
--
-
-### Features Left to Implement
-
-- 
-
-## Technologies Used
--
-
-## Testing
--
-
-## Credits
--
+I have the homepage which basically welcomes the user to the website, with an eye catching picture to convince them to use our website
+the about us describes about the company
+the shop page, the left shows the categories for the user the select from, and on the right is the products where the user can select which to add to cart, and also click in for more information, where they can choose more than one item to put in cart, which will trigger the cart  button on the top right corner with the quantity.
+when the cart button is clicked, user can see the overview of what they bought, as well as price.
+the faq shows a couple of questions and answers, and the tables can be expanded to show answer, so that it doesnt take up so much space, so user can look through the questions and find what they need more effectively, especially with many questions.
+the contact us page shows the location of where the company is located, as well as additional information as to ordering. It also shows the map for easy convenience for users to see.
 
 ### Content
--
+Most of the content, such as the shop and FAQ is from https://yayapapaya.com.sg/
 ### Media
 -
 ### Acknowledgements
